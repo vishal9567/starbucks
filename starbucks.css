@@ -47,7 +47,7 @@
     display: block;
     transition: 0.3s;
   }
-  @media only screen and (max-width: 1200px){
+  @media only screen and (max-width: 1440px){
     .iconXpand {
         display: none;
     }
