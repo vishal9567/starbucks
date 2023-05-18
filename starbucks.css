@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* body{
+    background-color: lightgray;
+} */
+.contain{
+    /* background-color: aquamarine; */
+}
+.col{
+    background-color: white;
+}
+.Elements{
+    display: flex;
+    align-items: center;
+}
+.Elements .EleText{
+    font-size: x-small;
+    padding: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    /* font-size: 25px; */
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  @media only screen and (max-width: 1200px){
+    .iconXpand {
+        display: none;
+    }
+    a{
+        font-size: small;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .iconXpand {
+        display: block;
+    }
+    a{
+        font-size: x-small;
+    }
+    .EleText{
+    display: none;
+    } 
+  }
+  /* ----------------------section1----------------------- */
+  .divtext1{
+    background-color: rgb(227,126,161);
+  }
+  .h2style{
+    padding-top: 8vw;
+    padding: 8vw 8vw 2vw 8vw;
+  }
+  .h6style{
+    padding-top: 8vw;
+    padding: 0vw 8vw 1vw 8vw;
+  }
+  .btn1{
+    background-color: rgb(227,126,161);
+    border: solid 1px;
+    font-size: 10px;
+  }
+   /* ----------------------section2----------------------- */
+   .divtext2{
+    background-color: rgb(212,233,226);
+  }
+  .btn2{
+    background-color: rgb(212,233,226);
+    border: solid 1px;
+    font-size: 10px;
+  }
+     /* ----------------------section3----------------------- */
+  .divtext3{
+    background-color: rgb(203,230,120);
+  }
+  .btn3{
+    background-color: rgb(203,230,120);
+    border: solid 1px;
+    font-size: 10px;
+  }
+     /* ----------------------section4----------------------- */
+  .divtext4{
+    background-color: rgb(241,255,103);
+  }
+  .btn4{
+    background-color: rgb(241,255,103);
+    border: solid 1px;
+    font-size: 10px;
+  }
+  /* <-----------------footer1----------------- */
+  .division h6:hover{
+    color: rgb(141, 133, 133) ;
+    cursor: pointer;
+  }
+  /* ----------------------Accodion--------------------------- */
+  .accodiontext{
+    font-size: 11px;
+  }
+
+  
